@@ -5,6 +5,9 @@ $spacing1-0: 1rem;
 $spacing1-5: 1.5rem;
 $spacing2-0: 2rem;
 $spacing2-5: 2.5rem;
+$spacing3-0: 3rem;
+
+$body-background-home: #313133;
 
 // FOUNDATION SETTINGS - OVERRIDE WHERE NECESSARY
 
@@ -71,7 +74,7 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-$body-background: #313133;
+$body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'source_sans_proregular', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
 $body-antialiased: true;
@@ -598,7 +601,7 @@ $thumbnail-radius: $global-radius;
 // 35. Title Bar
 // -------------
 
-$titlebar-background: $body-background;
+$titlebar-background: $body-background-home;
 $titlebar-color: $body-font-color;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
@@ -632,4 +635,4 @@ $topbar-unstack-breakpoint: medium;
 
 // RENDERWELL POST SETTINGS
 
-$body-background-components: $white;
+$body-font-color-home: $white;

@@ -1,0 +1,13 @@
+.card--discreet {
+    border: 0;
+    .card-divider {
+        background-color: transparent;
+    }
+}
+
+// SKINS
+.card--prescient_skin {
+    .icon-agile::before {
+        content: 'agile';
+    }
+}

@@ -1,0 +1,75 @@
+// CIRCLED
+$circle-dimension-small: 50px;
+$circle-dimension-default: 100px;
+$circle-dimension-large: 150px;
+
+@mixin circled($dimension: $circle-dimension-default) {
+    width: $dimension;
+    height: $dimension;
+    border-radius: 50%;
+    border: 1px solid $body-font-color;
+    display: inline-block;
+    overflow: hidden;
+}
+
+@mixin circled-centred-item($dimension: $circle-dimension-default) {
+    @include circled($dimension);
+
+    line-height: $dimension;
+    text-align: center;
+}
+
+@mixin circled-centred-element($dimension: $circle-dimension-default) {
+    @include circled($dimension);
+
+    position: relative;
+    > * {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+// end CIRCLED
+
+// EXPAND ON HOVER
+@mixin expand-on-hover($scale: 1.15, $duration: 0.1s) {
+    &:hover {
+        transform: scale($scale);
+        transition: all $duration linear;
+    }
+}
+
+@mixin expand-on-hover-container($scale: 1.15, $duration: 0.1s) {
+    &:hover .expand-on-hover-contained {
+        transform: scale($scale);
+        transition: all $duration linear;
+    }
+}
+// end EXPAND ON HOVER
+
+// INVERT ON HOVER
+@mixin invert-on-hover($bgcolor: $white, $color: $primary-color) {
+    background-color: $bgcolor;
+    color: $color;
+    border: 1px solid $color;
+
+    &:hover {
+        background-color: $color;
+        color: $bgcolor;
+    }
+}
+
+@mixin invert-on-hover-container($bgcolor: $white, $color: $primary-color) {
+    .invert-on-hover-contained {
+        background-color: $bgcolor;
+        color: $color;
+        border: 1px solid $color;
+    }
+
+    &:hover .invert-on-hover-contained {
+        background-color: $color;
+        color: $bgcolor;
+    }
+}
+// end INVERT ON HOVER

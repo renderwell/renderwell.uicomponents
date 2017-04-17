@@ -69,7 +69,10 @@
 
 // RENDERWELL SCSS
 // base
+@import "mixins";
+@import "utilities";
 @import "base";
+@import "layout";
 @import "site";
 
 // foundation component variations
@@ -77,9 +80,16 @@
 
 // components
 @import "components/media";
+@import "components/card";
 
 // page
 @import "page/site-header";
+
+// example skins
+@import "example-skins";
+
+// tests
+@import "tests";
 
 
 // TEST PARALLAX

@@ -1,24 +1,10 @@
 # The Grid
 
-<p class="lead">Problem: You've got tons of content, each needing different sized vertical columns, and don't know how to quick and easily get it all done. Solution: The awesome grid!</p>
+<p class="lead">Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains.</p>
 
 ---
 
-## Overview
-
-The grid is built around two key elements: rows and columns. Rows create a max-width and contain the columns, and columns create the final structure. Everything on your page that you don't give a specific structural style to should be within a row or column.
-
----
-
-## Nesting
-
-In the Grid you can nest columns down as far as you'd like. Just embed rows inside columns and go from there. Each embedded row can contain up to 12 columns.
-
----
-
-## How to Use
-
-Using this framework is easy. Here's how your code will look when you use a series of `<div>` tags to create vertical columns.
+## Usage
 
 ```html
 <div class="row">
@@ -271,12 +257,6 @@ Make forms great and easy to use with the following rules:
 
 ---
 
-## Learn All About Forms
-
-Check out the [Foundation Docs](http://foundation.zurb.com/sites/docs) to learn about how flexible our forms are for creating different layouts. It works perfectly with the grid to meet all your form needs.
-
----
-
 ## Form Layouts
 
 Form elements in Foundation are styled based on their type attribute rather than a class. Inputs in Foundation have another major advantage — they are full width by default. That means that inputs will run as wide as the column that contains them. However, you have two options which make these forms extremely versatile:
@@ -340,6 +320,271 @@ Form elements in Foundation are styled based on their type attribute rather than
     </div>
   </div>
 </form>
+```
+
+
+
+# Card
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora omnis suscipit id ut laborum recusandae molestias hic aliquid **expedita!** [Non dicta](zurb.com), autem obcaecati error, id ab voluptate unde culpa nulla.
+
+```html_example
+<div class="card" style="width: 300px;">
+  <div class="card-divider">
+    This is a header
+  </div>
+  <img src="assets/img/rectangle-1.jpg">
+  <div class="card-section">
+    <h4>This is a card.</h4>
+    <p>It has an easy to override visual style, and is appropriately subdued.</p>
+  </div>
+</div>
+```
+
+
+
+# Discreet Card
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora omnis suscipit id ut laborum recusandae molestias hic aliquid **expedita!** [Non dicta](zurb.com), autem obcaecati error, id ab voluptate unde culpa nulla.
+
+```html_example
+<div class="card card--discreet text-center" style="width: 300px;">
+  <img src="assets/img/rectangle-2.jpg">
+  <div class="card-divider">
+    <h4>This is a card.</h4>
+  </div>
+  <div class="card-section">
+    <p>It has an easy to override visual style, and is appropriately subdued.</p>
+  </div>
+</div>
+```
+
+
+
+# Cards in a grid
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora omnis suscipit id ut laborum recusandae molestias hic aliquid **expedita!** [Non dicta](zurb.com), autem obcaecati error, id ab voluptate unde culpa nulla.
+
+```html_example
+<div class="row">
+    <div class="column medium-4">
+        <div class="card card--discreet text-center">
+          <img src="assets/img/rectangle-2.jpg">
+          <div class="card-divider">
+            <h4>This is a card.</h4>
+          </div>
+          <div class="card-section">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+          </div>
+        </div>
+    </div>
+    <div class="column medium-4">
+        <div class="card card--discreet text-center">
+          <img src="assets/img/rectangle-2.jpg">
+          <div class="card-divider">
+            <h4>This is a card.</h4>
+          </div>
+          <div class="card-section">
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.</p>
+          </div>
+        </div>
+    </div>
+    <div class="column medium-4">
+        <div class="card card--discreet text-center">
+          <img src="assets/img/rectangle-2.jpg">
+          <div class="card-divider">
+            <h4>This is a card.</h4>
+          </div>
+          <div class="card-section">
+            <p>Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Interactively procrastinate high-payoff content without backward-compatible data.</p>
+          </div>
+        </div>
+    </div>
+</div>
+```
+
+
+
+# Card: Prescient Skin
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora omnis suscipit id ut laborum recusandae molestias hic aliquid **expedita!** [Non dicta](zurb.com), autem obcaecati error, id ab voluptate unde culpa nulla.
+
+```html_example
+<div class="row">
+    <div class="column medium-4">
+        <div class="card card--discreet card--prescient_skin expand-on-hover-container invert-on-hover-container text-center">
+            <div class="card-divider">
+                <i class="icon-agile circled-item expand-on-hover-contained invert-on-hover-contained"></i>
+            </div>
+
+            <div class="card-section">
+                <h4>Solutions</h4>
+                <div class="small-break"></div>
+                <p>We assess, plan, design and build world-class intranets and digital workplaces. With 200+ clients, we are the most experienced, dedicated intranet consulting firm.</p>
+                <ul style="list-style: none">
+                    <li>
+                        <a href="#0" target="_self" title="">Intranet Consulting</a>
+                    </li>
+                    <li>
+                        <a href="#0" target="_self" title="">Intranet Consulting</a>
+                    </li>
+                    <li>
+                        <a href="#0" target="_self" title="">Intranet Consulting</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="column medium-4">
+        <div class="card card--discreet card--prescient_skin expand-on-hover-container invert-on-hover-container text-center">
+            <div class="card-divider">
+                <i class="icon-agile circled-item expand-on-hover-contained invert-on-hover-contained"></i>
+            </div>
+
+            <div class="card-section">
+                <h4>Solutions</h4>
+                <div class="small-break"></div>
+                <p>We assess, plan, design and build world-class intranets and digital workplaces. With 200+ clients, we are the most experienced, dedicated intranet consulting firm.</p>
+                <ul style="list-style: none">
+                    <li>
+                        <a href="#0" target="_self" title="">Intranet Consulting</a>
+                    </li>
+                    <li>
+                        <a href="#0" target="_self" title="">Intranet Consulting</a>
+                    </li>
+                    <li>
+                        <a href="#0" target="_self" title="">Intranet Consulting</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="column medium-4">
+        <div class="card card--discreet card--prescient_skin expand-on-hover-container invert-on-hover-container text-center">
+            <div class="card-divider">
+                <i class="icon-agile circled-item expand-on-hover-contained invert-on-hover-contained"></i>
+            </div>
+
+            <div class="card-section">
+                <h4>Solutions</h4>
+                <div class="small-break"></div>
+                <p>We assess, plan, design and build world-class intranets and digital workplaces. With 200+ clients, we are the most experienced, dedicated intranet consulting firm.</p>
+                <ul style="list-style: none">
+                    <li>
+                        <a href="#0" target="_self" title="">Intranet Consulting</a>
+                    </li>
+                    <li>
+                        <a href="#0" target="_self" title="">Intranet Consulting</a>
+                    </li>
+                    <li>
+                        <a href="#0" target="_self" title="">Intranet Consulting</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+```
+
+
+
+# Circled content
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora omnis suscipit id ut laborum recusandae molestias hic aliquid **expedita!** [Non dicta](zurb.com), autem obcaecati error, id ab voluptate unde culpa nulla.
+
+```html_example
+    <div class="circled--small">
+        Leverage agile frameworks to provide a robust synopsis for high level overviews.
+    </div>
+    <div class="circled-item--small">
+        agile
+    </div>
+    <div class="circled-element--small">
+        <span>agile frameworks</span>
+    </div>
+    <div class="circled-element--small text-center">
+        <span>agile frameworks</span>
+    </div>
+
+    <br />
+
+    <div class="circled">
+        Leverage agile frameworks to provide a robust synopsis for high level overviews.
+    </div>
+    <div class="circled-item">
+        agile
+    </div>
+    <div class="circled-element">
+        <span>agile frameworks</span>
+    </div>
+    <div class="circled-element text-center">
+        <span>agile frameworks</span>
+    </div>
+
+    <br />
+
+    <div class="circled--large">
+        Leverage agile frameworks to provide a robust synopsis for high level overviews.
+    </div>
+    <div class="circled-item--large">
+        agile
+    </div>
+    <div class="circled-element--large">
+        <span>agile frameworks</span>
+    </div>
+    <div class="circled-element--large text-center">
+        <span>agile frameworks</span>
+    </div>
+```
+
+
+
+# Expand on hover
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora omnis suscipit id ut laborum recusandae molestias hic aliquid **expedita!** [Non dicta](zurb.com), autem obcaecati error, id ab voluptate unde culpa nulla.
+
+```html_example
+    <div class="circled-item expand-on-hover">
+        agile
+    </div>
+    <div class="circled-element text-center expand-on-hover">
+        <span>agile frameworks</span>
+    </div>
+    <div class="expand-on-hover text-center" style="width: 200px; padding: 5px 0; border: 1px solid red;">
+        agile frameworks
+    </div>
+
+    <br />
+
+    <div class="circled-item expand-on-hover--large">
+        agile
+    </div>
+
+    <br />
+
+    <div class="expand-on-hover-container text-center" style="width: 300px; padding: 15px 15px 0 15px; border: 1px solid black">
+        <div class="circled-element expand-on-hover-contained">
+            <span>agile</span>
+        </div>
+        <p>Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications.</p>
+    </div>
+```
+
+
+
+# Invert on hover
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora omnis suscipit id ut laborum recusandae molestias hic aliquid **expedita!** [Non dicta](zurb.com), autem obcaecati error, id ab voluptate unde culpa nulla.
+
+```html_example
+    <div class="circled-item expand-on-hover invert-on-hover">
+        agile
+    </div>
+    <div class="circled-item expand-on-hover invert-on-hover_example-skin">
+        agile
+    </div>
 ```
 
 

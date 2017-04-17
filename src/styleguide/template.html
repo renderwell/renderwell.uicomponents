@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Style Guide</title>
+    <title>Components</title>
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
 
@@ -60,23 +60,23 @@
 
     <div class="column row">
       <h1>Components & Style Guide</h1>
-      <p class="lead">This style guide was built with Foundation for Sites. For more information on how to use this responsive front-end framework, check out the documentation, get help from the Foundation community, or request immediate technical support.</p>
-      <a href="http://foundation.zurb.com/docs/" class="button">Visit the Docs</a>
-      <a href="http://foundation.zurb.com/forum/" class="secondary button">Foundation Forum</a>
-      <a href="http://foundation.zurb.com/business/business-support.html" class="secondary button">Technical Support</a>
+      <p class="lead">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+      <a href="http://foundation.zurb.com/docs/" class="button">Capitalize</a>
+      <a href="http://foundation.zurb.com/forum/" class="secondary button">Unleash</a>
+      <a href="http://foundation.zurb.com/business/business-support.html" class="secondary button">Maintain</a>
     </div>
 
     <div class="column row"><div class="row collapse">
 
       <div class="large-3 medium-4 columns" data-sticky-container>
-        <ul class="vertical menu">
+        <ul class="vertical menu sticky" data-sticky data-anchor="patterns">
           {{#each pages}}
             <li><a href="#{{ anchor }}">{{ title }}</a></li>
           {{/each}}
         </ul>
       </div>
 
-      <div class="large-9 medium-8 columns">
+      <div class="large-9 medium-8 columns" id="patterns">
         {{#each pages}}
           <section class="ss-section" id="{{ anchor }}">
             {{ body }}
